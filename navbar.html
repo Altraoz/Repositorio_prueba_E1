@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feisbuk</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+</head>
+<body>
+    <nav>
+        <button class="nav_boton" onclick="accion()">Menú</button>
+        <a href="#" class="nav_enlace desaparece">Inicio</a>
+        <a href="#" class="nav_enlace desaparece">Nostros</a>
+        <a href="#" class="nav_enlace desaparece">Servicios</a>
+        <a href="#" class="nav_enlace desaparece">Contacto</a> 
+    </nav>
+    <script>
+        function accion(){
+            console.log('owo')
+            var ancla = document.getElementsByClassName("nav_enlace");
+            for (var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+</body>
+</html>

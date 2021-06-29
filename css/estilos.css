@@ -1,0 +1,22 @@
+button {
+  background: #BEAEE2;
+  color: #0A1931;
+}
+
+button:hover {
+  background: #0A1931;
+  color: #F7DAD9;
+}
+
+button:active {
+  background: #CD113B;
+  color: white;
+}
+
+.nav_enlace {
+  background: salmon;
+  color: white;
+  padding: 10px 30px;
+  margin: 50px;
+}
+/*# sourceMappingURL=estilos.css.map */
